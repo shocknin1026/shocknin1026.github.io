@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <title>noripapa</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>noripapa</h1>
+        <section class="hamburger">
+            <a class="nav-button" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="#">TOP</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Service</a></li>
+                <li class="phone"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article class="mainvisual">
+            <img src="images/tricycle.jpg" alt="三輪車">
+            <h2>作ります。</h2>
+        </article>
+        <article class="topics">
+            <section class="content-wrapper">
+                <div class="heading">
+                    <h2>About</h2>
+                </div>
+                <div class="content">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th>2020.03.06</th>
+                                <td>このサイトを作りました</td>
+                            </tr>
+                            <tr>
+                                <th>2020.00.00</th>
+                                <td>タイトルが入ります。タイトルが入ります。</td>
+                            </tr>
+                            <tr>
+                                <th>2020.00.00</th>
+                                <td>タイトルが入ります。タイトルが入ります。</td>
+                            </tr>
+                            <tr>
+                                <th>2020.00.00</th>
+                                <td>タイトルが入ります。</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p class="btn"><a href="#">more</a></p>
+                </div>
+            </section>
+        </article>
+        <article class="institution">
+            <section class="content-wrapper">
+                <div class="content">
+                    <h2>Portfolio</h2>
+                    <p>
+                        丁寧、親身に制作させていただきます。
+                    </p>
+                    <p class="btn"><a href="#">more</a></p>
+                </div>
+            </section>
+        </article>
+        <article class="recruit">
+            <section class="content-wrapper">
+                <h2>Service</h2>
+                <ul>
+                    <li><a href="#"><figure><img src="https://placehold.jp/400x400.png" alt=""></figure><span>TOPのみ</span></a></li>
+                    <li><a href="#"><figure><img src="https://placehold.jp/400x400.png" alt=""></figure><span>LP制作</span></a></li>
+                </ul>
+            </section>
+        </article>
+        <section id="contact" class="fadein">
+            <form role="form" method="post" action="php/mail.php">
+                <h2>Contact</h2>
+                <p>24時間以内に<br id="br-min320-block">返信させていただきます。</p>
+                <div id="formWrapper">
+                    <div><input placeholder="name" type="text" name="name" maxlength="30" required></div>
+                    <div><input placeholder="email" type="email" name="email" required></div>
+                    <div><textarea placeholder="message" rows="10" name="message" required></textarea></div>
+                    <button type="submit" value="SEND MESSAGE" class="btn" id="send">SEND</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="content-wrapper">
+            <div class="high">
+                <h1>noripapa</h1>
+                <ul>
+                    <li><a href="#">TOP</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li class="phone"><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="low">
+                〒341-0038<span>埼玉県三郷市</span><br>
+                TEL：090-6166-9488
+            </div>
+            <p>&copy;noripapa Co.,Ltd.</p>
+        </section>
+    </footer>
+</body>
